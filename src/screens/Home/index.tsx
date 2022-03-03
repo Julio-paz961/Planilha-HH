@@ -1,15 +1,11 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import Heading from '@components/Heading';
+
 import * as S from './styles';
 
 const Home = () => (
-  <S.Wrapper>
-    <StatusBar style="light" />
-    <Heading color="#ffff">Poli Junior</Heading>
-    <S.StyledText>Template para iniciar projetos da PJ</S.StyledText>
-    <S.StyledText>criado por Augusto Iryoda</S.StyledText>
-  </S.Wrapper>
+  <S.Container>
+    <S.ImageLanding source={{uri:'https://22xif33vsyk64diqoe44hsrn-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/footer_logo.png'}}/>
+  </S.Container>
 );
 
 export default Home;
